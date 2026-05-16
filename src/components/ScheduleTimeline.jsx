@@ -10,6 +10,8 @@ const typeStyle = {
 
 function isCurrentBlock(item, index) {
   const now = new Date()
+  const day = now.getDay()
+  if (day === 0 || day === 6) return false
   const [time, period] = item.time.split(' ')
   let [h, m] = time.split(':').map(Number)
   if (period === 'pm' && h !== 12) h += 12
