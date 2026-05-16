@@ -11,6 +11,7 @@ export const CHECKLIST = {
       { id: 'm2', text: 'Get kids dressed (weather appropriate)' },
       { id: 'm3', text: 'Brush hair, teeth, wash hands, wipe faces' },
       { id: 'm4', text: "Pack Claire's snack and lunch (if not eating hot lunch)" },
+      { id: 'm5a', text: 'Apply sunscreen to Claire & Henry faces before bus stop' },
       { id: 'm5', text: 'Walk Claire & Henry to bus stop at 7:45 am' },
       { id: 'm6', text: 'Drive Jack to Academy (Seaboard Lane) by 8:00 am' },
       { id: 'm7', text: 'Sweep/vacuum kitchen floors after breakfast' },
@@ -43,7 +44,6 @@ export const CHECKLIST = {
     time: 'Throughout the day',
     color: 'gold',
     items: [
-      { id: 'd1', text: "Fill Bear's food and water" },
       { id: 'd2', text: 'Keep kitchen sink clean/white' },
       { id: 'd3', text: 'Vacuum dining area and playrooms' },
       { id: 'd4', text: 'Remove all items from cars (no trash/water bottles)' },
