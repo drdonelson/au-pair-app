@@ -4,6 +4,7 @@ import ChecklistPage from './pages/ChecklistPage'
 import SchedulePage from './pages/SchedulePage'
 import CalendarPage from './pages/CalendarPage'
 import RulesPage from './pages/RulesPage'
+import AdminPage from './pages/AdminPage'
 
 const NAV = [
   { to: '/checklist', label: 'Checklist', icon: (active) => (
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/schedule" element={<SchedulePage />} />
           <Route path="/calendar" element={<CalendarPage />} />
           <Route path="/rules" element={<RulesPage />} />
+          <Route path="/admin" element={<AdminPage />} />
         </Routes>
       </main>
 
